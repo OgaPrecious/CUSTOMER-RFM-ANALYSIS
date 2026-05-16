@@ -61,8 +61,7 @@ Lost Customers Percentage
 
 A dedicated Date Table was created to support time intelligence analysis and improve data modeling efficiency.
 
-Customer RFM Table
-
+### Customer RFM Table
 A Customer RFM Table was created containing:
 Customer RFM Table
 * Recency
@@ -136,6 +135,7 @@ This may indicate: weak retention strategies, poor customer experience, ineffect
 
 # Revenue by Segment
 ![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/rev%20by%20segment.png)
+
 This chart shows how much revenue each customer segment contributes to the business.
 The Champions segment contributes the highest revenue among all customer groups.
 Regular and Loyal customers also contribute meaningfully, while Lost Customers contribute the least.
@@ -153,6 +153,7 @@ Understanding revenue contribution helps the company:
 
 # Profit by Segment
 ![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/profit%20by%20segment.png)
+
 This chart analyzes profit contribution across customer segments.
 
 ## Key Findings
@@ -171,8 +172,10 @@ This insight helps the business:
 * Focus on profitable customer relationships
 
 # Segment Distribution
-The segment distribution chart shows how customers are distributed across different RFM segments.
 ![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/segment%20dist.png)
+
+The segment distribution chart shows how customers are distributed across different RFM segments.
+
 ## Key Findings
 The dashboard reveals:
 * A large number of Regular customers
@@ -188,6 +191,7 @@ The greatest opportunity for growth may come from:
 
 # Customer RFM Table
 ![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/RFM%20Table.png)
+
 The Customer RFM table provides detailed customer-level analysis.
 It displays:
 
@@ -215,13 +219,16 @@ The business should prioritize customer retention strategies for its highest-val
 * Premium customer support
 2. Improve Customer Retention:
   
-Since Lost customers represent a significant percentage of the customer base, the business should implement:
+Since Lost customers represent a significant percentage of the customer base,
+
+the business should implement:
 * Re-engagement campaigns
 * Personalized communication
 * Customer feedback programs
 
-3. Nurture Regular Customers: 
+3. Nurture Regular Customers:
 Regular customers have the potential to become Loyal or Champions customers.
+
 The business should:
 * Improve customer engagement
 * Increase personalization
@@ -229,6 +236,7 @@ The business should:
 
 4. Monitor Customer Profitability:
 The company should focus not only on revenue generation but also on profitability.
+
 This ensures:
 * Sustainable growth
 * Efficient resource allocation
