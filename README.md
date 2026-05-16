@@ -39,8 +39,11 @@ The following data cleaning processes were performed:
 * Verified appropriate data types for numerical and date fields.
 
 After the cleaning process, the transformed dataset was loaded into Power BI for modeling and analysis.
+![]()
+
 
 # Data Modeling
+I modeled the data by creating a one-to-many relationship between the ecommerce fact table and two supporting  tables, allowing the fact table to serve as the “many” side while the other tables act as the “one” side for efficient filtering and analysis.
 Several DAX measures and calculated tables were created to support the RFM analysis and dashboard development.
 
 DAX Measures Created
@@ -48,6 +51,7 @@ Total Revenue,
 Total Profit,
 Champions Percentage,
 Lost Customers Percentage
+
 
 ## Date Table
 A dedicated Date Table was created to support time intelligence analysis and improve data modeling efficiency.
