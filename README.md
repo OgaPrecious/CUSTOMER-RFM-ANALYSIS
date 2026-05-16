@@ -40,7 +40,7 @@ The following data cleaning processes were performed:
 * Verified appropriate data types for numerical and date fields.
 
 After the cleaning process, the transformed dataset was loaded into Power BI for modeling and analysis.
-![]()
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/rfm%20inconsistent%20date.png)
 
 
 # Data Modeling
