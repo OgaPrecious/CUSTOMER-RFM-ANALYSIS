@@ -1,18 +1,17 @@
 # CUSTOMER-RFM-ANALYSIS
 
 # Table of Contents
-* Analysis Overview
-* Business Objectives
-* Data Source
-* Preparation Tool
-* Data Processing
-* Data Modeling
-* Skills Demonstrated
-* Insights from the Dashboard
-* Recommendation
-* Business Impact
-* Dashboard
-* Conclusion
+- [Analysis Overview](#analysis-overview)  
+- [Business Objectives](#business-objectives)  
+- [Data Source](#data-source)  
+- [Preparation Tool](#preparation-tool)  
+- [Data Processing](#data-processing)  
+- [Data Modeling](#data-modeling)  
+- [Skills Demonstrated](#skills-demonstrated)  
+- [Insights from the Dashboard](#insights-from-the-dashboard)  
+- [Recommendation](#recommendation)    
+- [Dashboard](#dashboard)  
+
 
 # Analysis Overview
 This project analyzes customer purchasing behavior using the RFM (Recency, Frequency, Monetary) model to identify high-value customers, inactive customers, and customer segments that require different business strategies.
