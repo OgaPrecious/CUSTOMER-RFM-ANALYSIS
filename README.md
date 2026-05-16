@@ -26,6 +26,7 @@ This project analyzes customer purchasing behavior using the RFM (Recency, Frequ
 * Provide actionable business insights using customer segmemtation Analysis
 
 # Data Source 
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/dataset.png)
 The dataset used for this project was obtained from Kaggle and imported into Microsoft Power BI as a Text/CSV file. The dataset contains ecommerce transactional data used to analyze customer purchasing behavior and perform RFM (Recency, Frequency, Monetary) segmentation.
 
 # Preparation Tool 
@@ -43,6 +44,8 @@ After the cleaning process, the transformed dataset was loaded into Power BI for
 
 
 # Data Modeling
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/data%20model.png)
+
 I modeled the data by creating a one-to-many relationship between the ecommerce fact table and two supporting  tables, allowing the fact table to serve as the “many” side while the other tables act as the “one” side for efficient filtering and analysis.
 Several DAX measures and calculated tables were created to support the RFM analysis and dashboard development.
 
@@ -54,6 +57,8 @@ Lost Customers Percentage
 
 
 ## Date Table
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/date%20table.png)
+
 A dedicated Date Table was created to support time intelligence analysis and improve data modeling efficiency.
 
 Customer RFM Table
@@ -80,6 +85,7 @@ The RFM model was used to categorize customers into different behavioral segment
 # Insights From the Dashboard
 
 ## KPI Overview
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/kpi%20rfm.png)
 ### Total Customers: 
 The dashboard shows that the business has aproximately 42,050 customers. This indicates that the company has built a significant customer base large enough for meaningful customer segmentation and behavioral analysis.
 #### Business Impact:
@@ -129,6 +135,7 @@ A quarter of the customer base appears disengaged.
 This may indicate: weak retention strategies, poor customer experience, ineffective re-engagement efforts.
 
 # Revenue by Segment
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/rev%20by%20segment.png)
 This chart shows how much revenue each customer segment contributes to the business.
 The Champions segment contributes the highest revenue among all customer groups.
 Regular and Loyal customers also contribute meaningfully, while Lost Customers contribute the least.
@@ -145,6 +152,7 @@ Understanding revenue contribution helps the company:
 * Identify customer growth opportunities
 
 # Profit by Segment
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/profit%20by%20segment.png)
 This chart analyzes profit contribution across customer segments.
 
 ## Key Findings
@@ -164,7 +172,7 @@ This insight helps the business:
 
 # Segment Distribution
 The segment distribution chart shows how customers are distributed across different RFM segments.
-
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/segment%20dist.png)
 ## Key Findings
 The dashboard reveals:
 * A large number of Regular customers
@@ -179,6 +187,7 @@ The greatest opportunity for growth may come from:
 * Reducing customer churn
 
 # Customer RFM Table
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/RFM%20Table.png)
 The Customer RFM table provides detailed customer-level analysis.
 It displays:
 
@@ -196,4 +205,44 @@ Businesses can use this information to:
 * Monitor customer activity
 * Track customer profitability
 * Support targeted customer strategies.
+
+# Recommendation
+Based on the analysis, I propose the following recommendations:
+1. Focus on Retaining Champions Customers:
+The business should prioritize customer retention strategies for its highest-value customers.
+* Loyalty rewards
+* Personalized offers
+* Premium customer support
+2. Improve Customer Retention:
   
+Since Lost customers represent a significant percentage of the customer base, the business should implement:
+* Re-engagement campaigns
+* Personalized communication
+* Customer feedback programs
+
+3. Nurture Regular Customers: 
+Regular customers have the potential to become Loyal or Champions customers.
+The business should:
+* Improve customer engagement
+* Increase personalization
+* Offer targeted promotions
+
+4. Monitor Customer Profitability:
+The company should focus not only on revenue generation but also on profitability.
+This ensures:
+* Sustainable growth
+* Efficient resource allocation
+* Better business performance
+
+# Dashboard
+![](https://github.com/OgaPrecious/CUSTOMER-RFM-ANALYSIS/blob/main/customer%20RFM.png)
+
+# Conclusion
+This Customer RFM Dashboard demonstrates the importance of customer segmentation in business intelligence and decision-making.
+The project highlights that customers behave differently and contribute differently to business performance.
+Through RFM analysis, I was able to:
+* Identify high-value customers
+* Detect customer disengagement
+* Improve retention strategies
+* Optimize profitability
+Overall, the dashboard transforms raw customer transaction data into meaningful business insights that can help improve customer strategy and long-term business growth.
